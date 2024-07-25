@@ -38,8 +38,13 @@ body {
 
 .page-container {
     position: relative;
-    height: 100vh;
-    width: 100%;
+    min-height: 100%;
+    display: grid;
+    margin: 0 auto;
+}
+
+.logo-container {
+    text-align: center;
 }
 
 .logo {
@@ -48,12 +53,12 @@ body {
 }
 
 footer.footer {
-    position: absolute;
-    bottom: 10px;
     width: 100%;
+    padding-bottom: 10px;
     color: white;
     text-align: center;
     font-size: 14px;
+    margin-top: auto;
 }
 
 footer.footer a {
