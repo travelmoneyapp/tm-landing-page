@@ -42,12 +42,6 @@ body {
     width: 100%;
 }
 
-.logo-container {
-    position: relative;
-    top: 25%;
-    text-align: center;
-}
-
 .logo {
     max-width: 200px;
     height: auto;
