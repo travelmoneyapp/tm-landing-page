@@ -50,6 +50,18 @@ body {
     height: auto;
 }
 
+.intro {
+    color: white;
+    padding-bottom: 24px;
+    width: 400px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.intro-bold {
+    font-weight: bold;
+}
+
 footer.footer {
     color: white;
     text-align: center;
