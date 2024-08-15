@@ -1,10 +1,11 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
         {
             "appID": "9FCJ233U4T.app.travelmoney-develop.tm",
-            "paths": ["*"]
+            "paths": [
+                "/verification"
+            ]
         },
         {
             "appID": "9FCJ233U4T.app.travelmoney-stating.tm",
