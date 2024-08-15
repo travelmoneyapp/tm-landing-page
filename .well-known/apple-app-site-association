@@ -4,7 +4,7 @@
         {
             "appID": "9FCJ233U4T.app.travelmoney-develop.tm",
             "paths": [
-                "/verification"
+                "/verify"
             ]
         },
         {
