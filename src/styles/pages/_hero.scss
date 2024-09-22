@@ -1,0 +1,31 @@
+.hero {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: 80px;
+  z-index: 1;
+
+  &__title {
+    font-size: 72px;
+    font-weight: 500;
+    color: $white;
+    line-height: 1;
+    margin-bottom: 16px;
+
+    &-highlight { color: $lemon-zest; }
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    color: $grey5;
+  }
+
+  &__action-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+    .button:first-child { margin-right: 8px; }
+  }
+}

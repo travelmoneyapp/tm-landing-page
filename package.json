@@ -5,10 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "bunx --bun vite",
-    "build": "bunx --bun vite build",
-    "preview": "bunx --bun vite preview"
+    "build:develop": "bunx --bun vite build --mode develop",
+    "build:staging": "bunx --bun vite build --mode staging",
+    "preview": "bunx --bun vite preview",
+    "deploy:develop": "firebase deploy --only hosting:develop",
+    "deploy:staging": "firebase deploy --only hosting:staging"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
     "sass-embedded": "^1.79.3",
     "vite": "^5.4.1",
     "vite-plugin-static-copy": "^1.0.6"

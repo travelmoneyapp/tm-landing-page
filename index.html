@@ -1,18 +1,93 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" crossorigin href="src/styles/main.scss">
-    <title>Vite App</title>
+      <meta charset="UTF-8" />
+      <meta name="theme-color" content="#151515">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" crossorigin href="src/styles/main.scss">
+      <title>Travel Money</title>
+
+      <script defer type="module" src="src/js/main.js"></script>
   </head>
   <body>
-    <div id="app">
-        <h1>Hello Vite!</h1>
-        <p class="read-the-docs">
-            Click on the Vite logo to learn more
-        </p>
+    <div id="root">
+        <nav class="navbar">
+            <ul class="navbar__menu">
+                <li class="navbar__menu-logo">
+                    <a href="/">
+                        <img src="src/assets/images/header-tm-logo.svg" alt="Travel Money">
+                    </a>
+                </li>
+                <li class="navbar__menu-item">
+                    <a href="">Product</a>
+                </li>
+                <li class="navbar__menu-item">
+                    <a href="">Compare</a>
+                </li>
+                <li class="navbar__menu-item">
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+
+            <a class="button button--download button--download-white" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="currentColor" d="M12.665 15.358c-.905.844-1.893.711-2.843.311-1.006-.409-1.93-.427-2.991 0-1.33.551-2.03.391-2.825-.31C-.498 10.886.166 4.078 5.28 3.83c1.246.062 2.114.657 2.843.71 1.09-.213 2.133-.826 3.296-.746 1.393.107 2.446.64 3.138 1.6-2.88 1.662-2.197 5.315.443 6.337-.526 1.333-1.21 2.657-2.345 3.635zM8.03 3.778C7.892 1.794 9.563.16 11.483 0c.268 2.293-2.16 4-3.452 3.777"></path></svg>
+                Download
+            </a>
+        </nav>
+        <span class="eclipse eclipse--small eclipse--left eclipse--sky"></span>
+        <main id="main">
+            <section class="hero">
+                <h1 class="hero__title">
+                    <span class="hero__title-highlight">Get money back</span>
+                    <br> for shopping in Europe
+                </h1>
+
+                <p class="hero__subtitle">Get a 75% higher VAT refund from your European shopping.</p>
+
+                <div class="hero__action-button">
+                    <a class="button button--download button--download-white" href="/">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="currentColor" d="M12.665 15.358c-.905.844-1.893.711-2.843.311-1.006-.409-1.93-.427-2.991 0-1.33.551-2.03.391-2.825-.31C-.498 10.886.166 4.078 5.28 3.83c1.246.062 2.114.657 2.843.71 1.09-.213 2.133-.826 3.296-.746 1.393.107 2.446.64 3.138 1.6-2.88 1.662-2.197 5.315.443 6.337-.526 1.333-1.21 2.657-2.345 3.635zM8.03 3.778C7.892 1.794 9.563.16 11.483 0c.268 2.293-2.16 4-3.452 3.777"></path></svg>
+                        Download the app
+                    </a>
+
+                    <a class="button button--primary" href="/">
+                        Join waiting list
+                    </a>
+                </div>
+            </section>
+            <section class="placeholder">
+                <img id="app-placeholder" src="src/assets/images/home-placeholder.png"
+                     srcset="src/assets/images/home-placeholder@2x.png 2x, src/assets/images/home-placeholder@3x.png 3x"
+                     alt="Travel Money App">
+                <span class="backdrop"></span>
+            </section>
+            <section class="feature">
+                <div class="feature__left">
+                    <div class="feature-card">
+                        <img src="src/assets/images/feature-device.png"
+                             srcset="src/assets/images/feature-device@2x.png 2x, src/assets/images/feature-device@3x.png 3x"
+                             alt="Travel Money App">
+                        <h3 class="feature-card__title">Simplest experience</h3>
+                        <p class="feature-card__text">Our streamlined app makes claiming your refund quick, easy, and hassle-free. Skip the lines and ditch the paperwork.</p>
+                    </div>
+                </div>
+
+                <div class="feature__right">
+                    <div class="feature-card">
+                        <h3 class="feature-card__title">Instant refund</h3>
+                        <p class="feature-card__text">Safely stores your shopping records digitally. No more lost receipts during travel. Your tax refund, always at your fingertips.</p>
+                        <img src="src/assets/images/feature-instant.svg" alt="Feature instant refund">
+                    </div>
+                    <div class="feature-card">
+                        <h3 class="feature-card__title">Lowest fees</h3>
+                        <p class="feature-card__text">Writing Tools can proofread your text and rewrite different versions until the tone and wording are just right, and summarize selected text with a tap.</p>
+                        <img src="src/assets/images/feature-lower.svg" alt="Feature lower fees">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <span class="eclipse eclipse--large eclipse--right eclipse--sky"></span>
     </div>
-    <script type="module" src="src/js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,36 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+  border: none;
+  border-radius: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  white-space: nowrap;
+  z-index: 2;
+
+  &--primary {
+    background-color: $white1;
+    color: $white8;
+    transition: color 350ms ease-in-out;
+
+    &:hover { color: $white }
+  }
+
+  &--download {
+    justify-content: center;
+    opacity: 0.85;
+    transition: opacity 350ms ease-in-out;
+
+    &:hover { opacity: 1; }
+
+    > svg {
+      height: 16px;
+      width: 16px;
+      margin-right: 8px;
+    }
+
+    &-white { background-color: $white; }
+    &-zest { background-color: $lemon-zest; }
+  }
+}

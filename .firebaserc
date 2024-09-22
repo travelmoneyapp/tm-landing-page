@@ -1,0 +1,19 @@
+{
+  "projects": {
+    "default": "travelmoney-web"
+  },
+  "targets": {
+    "travelmoney-web": {
+      "hosting": {
+        "develop": [
+          "travelmoney-develop"
+        ],
+        "staging": [
+          "travelmoney-staging"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

@@ -1,0 +1,29 @@
+.eclipse {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(350px);
+
+  &--small {
+    height: 484px;
+    width: 484px;
+  }
+
+  &--large {
+    height: 784px;
+    width: 784px;
+  }
+
+  &--left {
+    top: 0;
+    left: -5%;
+    opacity: 0.45;
+  }
+
+  &--right {
+    top: 25%;
+    right: 0;
+    opacity: 0.15;
+  }
+
+  &--sky { background-color: $sky-limit; }
+}
