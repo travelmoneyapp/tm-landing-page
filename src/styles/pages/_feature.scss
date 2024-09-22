@@ -30,11 +30,12 @@
 
     &__title {
       font-size: 16px;
+      font-weight: 700;
       color: $white;
     }
 
     &__text {
-      font-size: 14px;
+      font-size: 16px;
       color: $grey5;
     }
 
@@ -42,6 +43,6 @@
   }
 
   &__left .feature-card > img { margin-bottom: 40px; }
-  &__left .feature-card .feature-card__text { margin-bottom: 19px; }
+  &__left .feature-card .feature-card__text { margin-bottom: 28px; }
   &__right .feature-card > img { margin-top: 24px; }
 }

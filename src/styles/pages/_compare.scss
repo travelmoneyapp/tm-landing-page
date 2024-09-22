@@ -1,0 +1,27 @@
+.compare {
+  position: relative;
+  text-align: center;
+  max-width: 1156px;
+
+  &__title {
+    font-size: 72px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: $white;
+
+    &-highlight { color: $lemon-zest; }
+  }
+
+  &__text {
+    font-size: 18px;
+    color: $grey5;
+    white-space: nowrap;
+  }
+
+  &__table {
+    margin-top: 80px;
+    margin-bottom: 240px;
+    height: 300px;
+    background-color: $white1;
+  }
+}
